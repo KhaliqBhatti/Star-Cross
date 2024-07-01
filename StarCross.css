@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1 {
+    background-image: linear-gradient(to left, rgb(0, 107, 132), rgba(0, 0, 0, 0.6)), url(./bg2.jpg);
+    background-size: 100% 100%;
+}
+
+.fa-bars:hover {
+    background-color: white;
+    color: rgb(0, 227, 227);
+    cursor: pointer;
+}
+
+span {
+    color: #0cd0f7;
+}
+
+.mainul>li {
+    margin-left: 30px;
+    font-size: 17px;
+    transition-duration: 0.7s;
+}
+
+.mainul>li:hover {
+    cursor: pointer;
+    color: #0cd0f7;
+}
+
+/* <!--------Sec2 Start --------> */
+.sec2 {
+    background-color: whitesmoke;
+}
+
+.learnbtn:hover {
+    background-color: #0cd0f7;
+    color: white;
+}
+
+.cardsdiv>div {
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    background-color: rgb(255, 255, 255);
+}
+
+.cardsdiv>div:hover {
+    margin-top: -10px;
+}
+
+/* <!--------Sec3 Start --------> */
+.sec3 {
+    background-color: whitesmoke;
+}
+
+/* <!--------Sec4 Start --------> */
+
+.btndiv>.allbtn {
+    background-color: #0cd0f7;
+}
+
+.selectbtn {
+    background-color: whitesmoke;
+}
+
+.selectbtn:hover {
+    background-color: #0cd0f7;
+    color: white;
+}
+
+.gridimgs {
+    overflow: hidden;
+}
+
+.bgimg {
+    overflow: hidden;
+}
+
+.bgimg>.scaleimg {
+    background-image: url(./bw1.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.bgimg>div:hover {
+    transform: scale(1);
+}
+
+.textdiv {
+    background-color: #00d5ff67;
+    transition: all 0.4s ease-in-out;
+}
+
+.bgimg:hover .textdiv {
+    visibility: visible;
+}
+
+.bgimg>.scaleimg2 {
+    background-image: url(./bw2.jpg);
+    background-size: cover;
+}
+
+.bgimg>.scaleimg3 {
+    background-image: url(./bw11.jpg);
+    background-size: cover;
+}
+
+.bgimg>.scaleimg4 {
+    background-image: url(./bw4.jpg);
+    background-size: cover;
+}
+
+.bgimg>.scaleimg5 {
+    background-image: url(./bw12.jpg);
+    background-size: cover;
+}
+
+.bgimg>.scaleimg6 {
+    background-image: url(./bw6.jpg);
+    background-size: cover;
+}
+
+/* <!--------Sec5 Start --------> */
+
+.teamcards>div {
+    border: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+/* <!--------Sec8 Start --------> */
+.sec8 {
+    background-image: url(./img08.jpg);
+    background-size: 100% 50%;
+}
+
+/* <!--------Sec9 Start --------> */
+
+.chartscards1 {
+    border: 1.5px solid rgba(128, 128, 128, 0.62);
+}
+
+.blueheading:hover {
+    cursor: pointer;
+    color: #0cd0f7;
+}
+
+.chartscards1:hover {
+    border: 1.5px solid #0cd0f7;
+}
+
+.date {
+    word-spacing: 8px;
+}
+
+/* <!--------Sec10 Start --------> */
+
+.sec10 {
+    background-image: linear-gradient(to left, rgb(0, 107, 132), rgba(0, 0, 0, 0.6)), url(./started-bg.jpg);
+}
+
+.forblue:hover {
+    color: #0cd0f7;
+    cursor: pointer;
+}
